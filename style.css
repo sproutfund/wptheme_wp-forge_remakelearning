@@ -1,0 +1,26 @@
+/*
+Theme Name:   WP-Forge for Remake Learning website
+Theme URI:    http://remakelearning.org
+Description:  Child theme of WP-Forge 5.x.x for use on Remake Learning website
+Author:       Matt Hannigan
+Version:      2014-09
+Template:     wp-forge-v5.4
+*/
+
+@import url("../wp-forge-v5.4/style.css");
+
+/* =Theme customization starts here
+----------------------------------------------- */
+
+/* =Media Queries
+----------------------------------------------- */
+@media only screen and (max-width: 40em) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+	}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+	}
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+	}
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+	}
+@media only screen and (min-width: 120.063em) { /* min-width 1921px, xlarge screens */
+	}

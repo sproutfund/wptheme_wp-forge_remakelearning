@@ -1,0 +1,26 @@
+/************************************************
+*
+* Subfooter styles
+*
+************************************************/
+
+#subfooter span, #subfooter ul li a {
+	font-size: small;
+	color: #bbbbbb;
+}
+
+#subfooter {
+	/*max-width: 1440px;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: .5rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	padding-bottom: .5rem;
+}
+
+@media only screen and (max-width: 40em) {
+	#subfooter .license-text {
+		display: none;
+	}
+}

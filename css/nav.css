@@ -1,0 +1,27 @@
+/************************************************
+*
+* Navbar styles
+*
+************************************************/
+
+.top-bar .logo > img {
+	display: block;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	margin-left:  0.9375em;
+}
+
+.top-bar {
+	height: 70px;
+	line-height: 70px;
+}
+
+.top-bar-section {
+	margin-top: 12px;
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	border-right: 0;
+}

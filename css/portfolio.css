@@ -1,0 +1,43 @@
+/************************************************
+*
+* Portfolio styles
+*
+************************************************/
+
+.portfolio_image_container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.portfolio_image_container > .dummy {
+	padding-top: 67%;
+}
+.portfolio_image_container > .portfolio_image > img.wp-post-image {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.portfolio_image:after {
+  position:absolute;
+	content:'\A';
+	width:100%; height:100%;
+	top:0; left:0;
+	background-color:rgba(234,234,234,0.1);
+}
+
+.portfolio .entry-header {
+	margin-bottom: 0;
+}
+.portfolio .entry-header .entry-title {
+	font-size: 1.1rem;
+	line-height: 1.4rem;
+	margin-bottom: .4rem;
+}
+.portfolio .entry-summary {
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+	padding-bottom: .5rem;
+}

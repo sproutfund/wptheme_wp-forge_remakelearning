@@ -1,0 +1,293 @@
+/************************************************
+*
+* Homepage styles
+*
+************************************************/
+
+#front-page-content {
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+}
+#front-page-content * {
+	color: white;
+	font-weight: 400;
+}
+#front-page-content .front-page-heading {
+	font-weight: 600; 
+	font-size: 140%; 
+	padding-top: 0.3515625rem; 
+	padding-bottom: 0.3515625rem;
+}
+
+#front-page-content img.collection-hero {
+	margin-top: 0 !important;
+}
+	
+#front-page-content #blog-entries, 
+#front-page-content #get-involved, 
+#front-page-content #upcoming-events, 
+#front-page-content #upcoming-events .row,
+#front-page-content #about-rml, 
+#front-page-content #recent-news, 
+#front-page-content #case-studies, 
+#front-page-content #network-spotlight {
+	padding-bottom: 0.9375rem;
+}
+
+#front-page-content a:link, 
+#front-page-content a:visited, 
+#front-page-content a:active, 
+#front-page-content a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#front-page-content .grey a:link, 
+#front-page-content .grey a:visited, 
+#front-page-content .grey a:active, 
+#front-page-content .grey a:hover {
+	color: #474747;
+	text-decoration: none;
+}
+
+#front-page-content figcaption {
+	color: white;
+	font-weight: 600;
+	font-size: 110%;
+	font-style: normal;
+}
+#front-page-content figcaption .caption-primary, 
+#front-page-content figcaption .caption-secondary {
+	display: block;
+	clear: both;
+}
+#front-page-content figcaption .caption-primary {
+	font-weight: 600;
+	font-size: 115%;
+	line-height: 130%;
+}				
+#front-page-content figcaption .caption-secondary {
+	font-weight: 400;
+	font-size: 90%;
+	line-height: 125%;
+}
+
+/* BLOG ENTRIES */
+#front-page-content #blog-entries figcaption .caption-primary {
+	font-size: 150%; 
+	padding-right: 0.9375rem;
+}
+#front-page-content #blog-entries figcaption .caption-secondary {
+	padding-right: 0.9375rem;
+}
+#front-page-content #blog-entries aside {
+	padding-top: 0.234375rem;
+}
+#front-page-content #blog-entries aside p {
+	line-height: 1.4rem;
+	margin-bottom: .75rem;
+}
+#front-page-content #blog-entries ul {
+	font-size: 100%;
+}
+#front-page-content #blog-entries #more-blog_entries img {
+	border: solid white .1rem;
+}
+
+
+/* UPCOMING EVENTS */
+#front-page-content #upcoming-events figure img {
+	opacity: 0.9;
+}
+#front-page-content #upcoming-events figcaption .caption-primary {
+	font-size: 100%;
+}
+#front-page-content #upcoming-events figcaption .caption-secondary {
+	font-size:  85%;
+	/*margin-top: -0.1171875rem;*/
+}
+#front-page-content #upcoming-events #upcoming-events-more {
+	font-size: 105%;
+	text-align: center;
+	padding-top: 0.17578125rem;
+	padding-bottom: 0.29296875rem;
+}
+#front-page-content #upcoming-events .row:first-child {
+	padding-bottom: 0;
+}
+
+/* RECENT NEWS */
+#front-page-content #recent-news figcaption .caption-primary {
+}
+#front-page-content #recent-news figcaption .caption-secondary {
+}
+#front-page-content #recent-news aside {
+	padding-top: 0.234375rem;					
+}
+#front-page-content #recent-news aside p {
+	font-size: 90%;
+	line-height: 1.4rem;
+	margin-bottom: .75rem;
+}
+#front-page-content #recent-news ul {
+	font-size: 90%;
+}
+
+
+/* CASE STUDIES */
+#front-page-content #case-studies figcaption {
+}				
+
+
+/* NETWORK SPOTLIGHT */
+#front-page-content #network-spotlight figcaption .caption-primary {
+}
+#front-page-content #network-spotlight figcaption .caption-secondary {
+}
+#front-page-content #network-spotlight aside {
+	padding-top: 0.234375rem;
+}
+#front-page-content #network-spotlight aside p {
+	line-height: 1.4rem;
+	margin-bottom: .75rem;
+}
+#front-page-content #network-spotlight #network-spotlight-more {
+	font-size: 105%;
+	text-align: center;
+	padding-top: 0.17578125rem;
+	padding-bottom: 0.29296875rem;
+}
+#front-page-content #network-spotlight .row:last-child {
+	padding-top: 0.9375rem;
+}
+#front-page-content #network-spotlight aside p {
+	margin-bottom: 0;
+}
+
+
+/* OVERLAY CAPTIONS */
+#front-page-content figure .overlay-caption.blue        { background-color: rgba(144,203,239,0.8); }
+#front-page-content figure .overlay-caption.dark-blue   { background-color: rgba( 82,156,213,0.8); }
+#front-page-content figure .overlay-caption.purple      { background-color: rgba(163, 96,146,0.8); }
+#front-page-content figure .overlay-caption.dark-purple { background-color: rgba(145, 76,132,0.8); }
+#front-page-content figure .overlay-caption.orange      { background-color: rgba(251,150, 47,0.8); }
+#front-page-content figure .overlay-caption.dark-orange { background-color: rgba(225,116, 37,0.8); }
+#front-page-content figure .overlay-caption.red         { background-color: rgba(224, 86, 59,0.8); }
+#front-page-content figure .overlay-caption.dark-red    { background-color: rgba(191, 66, 49,0.8); }
+#front-page-content figure .overlay-caption.green       { background-color: rgba(195,219, 71,0.8); }
+#front-page-content figure .overlay-caption.dark-green  { background-color: rgba(158,173, 52,0.8); }
+#front-page-content figure .overlay-caption.grey        { background-color: rgba(234,234,234,0.8); }
+#front-page-content figure .overlay-caption.dark-grey   { background-color: rgba(186,186,186,0.8); }
+#front-page-content figure .overlay-caption.white       { background-color: rgba(255,255,255,0.8); }
+#front-page-content figure .overlay-caption.black       { background-color: rgba(  0,  0,  0,0.8); }
+
+#front-page-content figure:hover .overlay-caption.blue        { background-color: rgba(144,203,239,0.9); }
+#front-page-content figure:hover .overlay-caption.dark-blue   { background-color: rgba( 82,156,213,0.9); }
+#front-page-content figure:hover .overlay-caption.purple      { background-color: rgba(163, 96,146,0.9); }
+#front-page-content figure:hover .overlay-caption.dark-purple { background-color: rgba(145, 76,132,0.9); }
+#front-page-content figure:hover .overlay-caption.orange      { background-color: rgba(251,150, 47,0.9); }
+#front-page-content figure:hover .overlay-caption.dark-orange { background-color: rgba(225,116, 37,0.9); }
+#front-page-content figure:hover .overlay-caption.red         { background-color: rgba(224, 86, 59,0.9); }
+#front-page-content figure:hover .overlay-caption.dark-red    { background-color: rgba(191, 66, 49,0.9); }
+#front-page-content figure:hover .overlay-caption.green       { background-color: rgba(195,219, 71,0.9); }
+#front-page-content figure:hover .overlay-caption.dark-green  { background-color: rgba(158,173, 52,0.9); }
+#front-page-content figure:hover .overlay-caption.grey        { background-color: rgba(234,234,234,0.9); }
+#front-page-content figure:hover .overlay-caption.dark-grey   { background-color: rgba(186,186,186,0.9); }
+#front-page-content figure:hover .overlay-caption.white       { background-color: rgba(255,255,255,0.9); }
+#front-page-content figure:hover .overlay-caption.black       { background-color: rgba(  0,  0,  0,0.9); }
+
+#front-page-content figure {
+	position: relative;
+	margin-bottom: 0;
+}
+
+#front-page-content figure .overlay-caption {
+	display: block;
+	clear: both; 
+	text-align: right;
+}
+
+@media only screen { /* Define mobile styles */
+
+	#front-page-content figure {
+		position: relative;
+		margin-bottom: 0;
+	}
+
+	#front-page-content figure .overlay-caption {
+		position: absolute;
+		width: 100%;
+		height: 25%;
+		top: 75%;
+		left: 0px;
+		padding-left: 0.46875rem;
+		padding-right: 0.46875rem;
+		text-align: right;
+	}
+	
+	#front-page-content  #network-spotlight figure .overlay-caption {
+		height: 40%;
+		top: 60%;
+	}
+	
+	/* CASE STUDIES */
+	#front-page-content #case-studies figure {
+		max-height: 12.0833333rem;
+		overflow: hidden;
+	}
+	#front-page-content #case-studies figcaption {
+		font-size: 90%;
+	}	
+
+}
+
+@media only screen and (min-width: 40.063em) {  /* min-width 641px, medium screens */
+
+	#recent-news, #case-studies, #network-spotlight {
+		padding-right: 0.9375rem;
+	}
+
+	#front-page-content figure .overlay-caption {
+		position: absolute;
+		width: 100%;
+		height: 25%;
+		top: 65%;
+		left: 0px;
+		padding-left: 0.46875rem;
+		padding-right: 0.46875rem;
+		text-align: right;
+	}
+
+	#front-page-content  #blog-entries figure .overlay-caption {
+		height: 25%;
+		top: 65%;
+	}
+	
+	#front-page-content  #network-spotlight figure .overlay-caption {
+		height: 25%;
+		top: 65%;
+	}
+	
+	#front-page-content #upcoming-events figure .overlay-caption.double-size {
+		height: 25%;
+		top: 65%;
+	}
+	#front-page-content #upcoming-events figure .overlay-caption.single-size {
+		height: 10%;
+		top: 80%;
+	}
+
+	#front-page-content #upcoming-events figure .overlay-caption {
+		height: 25%;
+		top: 65%;
+	}
+
+}
+
+@media only screen and (min-width: 39.937em) { /* min-width 769px, landscape medium screens */
+	
+	#front-page-content #case-studies figcaption {
+		font-size: 110%;
+	}	
+
+} 

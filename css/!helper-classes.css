@@ -1,0 +1,10 @@
+/************************************************
+*
+* Helper classes
+*
+************************************************/
+
+.no-pad-right { padding-right: 0; }
+.no-pad-left   { padding-left:  0; }
+.no-pad-both   { padding-right: 0; padding-left: 0; }
+	

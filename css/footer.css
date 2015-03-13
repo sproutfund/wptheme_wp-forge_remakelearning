@@ -1,0 +1,52 @@
+/************************************************
+*
+* Main Footer styles
+*
+************************************************/
+
+footer[role=contentinfo] {
+	background-color: #d4d4d4;
+	border-top: 4px double #d4d4d4;
+	/*background-color: #ededed;*/
+	/*max-width: 1440px;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+footer[role=contentinfo] .row .columns ul#footerlinks {
+	list-style-type: none;
+	text-align: center;
+	margin-left: 0;
+	margin-top: 1.25rem;
+	margin-bottom: 0;
+}
+
+footer[role=contentinfo] .row .columns ul#footerlinks li {
+	display: inline-block;
+	margin-left: .4rem;
+	margin-right: .4rem;
+}
+
+footer[role=contentinfo] .row .columns ul#footerlinks li .button.tiny {
+	padding-left: .8rem;
+	padding-right: .8rem;
+}
+
+footer[role=contentinfo] .row .columns ul#footerlinks li a img {
+	margin-top: -2px;
+	margin-right: 4px;
+}
+
+@media only screen and (max-width: 40em) {
+	footer[role=contentinfo] .row .columns ul#footerlinks li {
+		margin-left: .1rem;
+		margin-right: .1rem;
+	}
+	footer[role=contentinfo] .row .columns ul#footerlinks li a .link-title {
+		display: none;
+	}
+	footer[role=contentinfo] .row .columns ul#footerlinks li a img {
+		margin-right: 0;
+	}
+}
