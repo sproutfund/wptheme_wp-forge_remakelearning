@@ -242,7 +242,7 @@
 					<section id="about-rml"><!--About Remake Full[yellow]-->
 						<div class="row white">
 							<div class="columns medium-12 no-pad-both">
-								<p><span style="font-weight: 600; font-size: 120%; color: #333333;">Remake Learning</span> reports on the people, organizations, and ideas shaping the future of teaching and learning in the greater Pittsburgh region. Read stories about learning innovation on our <a href="/blog/">blog</a> and in the <a href="/news/">news</a>, browse upcoming <a href="/calendar/">events and opportunities</a>, and connect to <a href="/resources/">resources</a> and network <a href="/people/">members</a> in Pittsburgh, West Virginia, and beyond.</p>
+								<p><span style="font-weight: 600; font-size: 120%; color: #333333;">Remake Learning</span> is a resource for the people, organizations, and ideas shaping the future of teaching and learning in the greater Pittsburgh region. Read stories about learning innovation on our <a href="/blog/">blog</a> and in the <a href="/news/">news</a>, browse upcoming <a href="/calendar/">events and opportunities</a>, and connect to <a href="/resources/">resources</a> and network <a href="/people/">members</a> in Pittsburgh, West Virginia, and beyond.</p>
 							</div>
 						</div>
 					</section>
